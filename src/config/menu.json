@@ -1,0 +1,38 @@
+[
+  {
+    "section": "Expenses",
+    "options": [
+      {
+        "id": 1,
+        "display": "Sample",
+        "to": "/app/sample",
+        "icon": "ph-chart-bar-horizontal"
+      },
+      {
+        "id": 2,
+        "display": "Expenses",
+        "to": "/app/expenses",
+        "icon": "ph-money"
+      }
+    ]
+  },
+  {
+    "section": "Options",
+    "options": [
+      {
+        "id": 3,
+        "display": "Options",
+        "icon": "ph-gear",
+        "children": [
+          { "display": "Categories", "to": "/app/categories", "icon": "ph-tag" },
+          { "display": "Keyword categorization", "to": "/app/keyword-categories", "icon": "ph-swap" }
+        ]
+      },
+      {
+        "id": 1,
+        "display": "Example",
+        "to": "/app/example"
+      }
+    ]
+  }
+]

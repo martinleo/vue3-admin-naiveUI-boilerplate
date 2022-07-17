@@ -1,0 +1,28 @@
+/* Configurable */
+/* Base colors */
+$mxl-primary-color: #f44336;
+$mxl-sidebar-selected-button-color: #f44336;
+
+/* Header */
+$mxl-header-height: 60px;
+$mxl-header-bg: white; //white;
+
+/* Sidebar */
+$mxl-sidebar-mobile-break: 800px;
+$mxl-sidebar-width: 250px;
+$mxl-sidebar-bg: white; //#1d3557;
+$mxl-sidebar-font-color: #444444; //#1d3557;
+
+/* Content */
+$mxl-content-bg: #f9f9f9;
+
+
+/* Rather not touch */
+/* Transformed (no need to modify)*/
+$mxl-primary-color-hover: rgba($mxl-primary-color, 0.15);
+$mxl-sidebar-selected-button-color-glow: rgba($mxl-sidebar-selected-button-color, 0.8);
+
+/* z-index */
+$mxl-zi-header: var(--mxl-zi-header, 500);
+$mxl-zi-backdrop: var(--mxl-zi-backdrop, 600);
+$mxl-zi-sidebar: var(--mxl-zi-sidebar, 700);
